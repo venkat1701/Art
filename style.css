@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+main{
+    height:100vh;
+    background-image: url('./images/portfolioimg/eighth.webp');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    width:100%;
+}
+
+img{
+    width:20px;
+    height:20px;
+}
+
+.header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    height:100px;
+}
+
+
+.header .title h2{
+    text-align: center;
+    font-family: 'Damion', cursive;
+    font-weight: 100;
+    font-size: 40px;
+    padding:15px;
+}
+
+
+.header .navbar ul{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width:100%;
+    align-items: center;
+    gap: 10px;
+    padding:20px;
+}
+
+.header .navbar ul li{
+    display: inline;
+    padding:10px;
+    font-family: 'Helvetica';
+    font-size: 14px;
+}
+
+
+.header .navbar ul li:hover{
+    border-bottom: 1px solid #212121;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.header .socials ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:20px;
+
+}
+
+.header .socials ul li{
+    display: inline;
+    align-self: center;
+    padding:10px;
+
+}
+
+.header .socials ul li:hover{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.midsec{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding:8%;
+    width:fit-content;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+
+.midsec .subhead{
+    background-color: #000;
+    color:#fff;
+    padding: 10px;
+    width:fit-content;
+    margin:0px 0px 0px 10px;
+}
+
+.midsec .subhead h4{
+    font-size: 20px;
+    font-family: 'Helvetica';
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.midsec .head{
+    background-color: #fff;
+    padding:20px;
+    margin:5px 10px 10px 10px;
+    box-shadow: 0 8px 16px 0 #21212188, 0 10px 20px 0 #111111d2;
+    width: fit-content;
+}
+
+.midsec .head h2{
+    font-family: 'Helvetica';
+    font-size: 50px;
+    font-weight: 100;
+    text-align: justify;
+    letter-spacing: 5px;
+}
+
+
+.midsec .joinserver {
+    background-color: #000;
+    width: fit-content;
+    margin: 30px 10px 10px 10px;
+    padding:9px;
+}
+
+.midsec .joinserver h4{
+    font-family: 'Helvetica';
+    color:#fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.midsec .joinserver:hover{
+    background:#212121;
+    border:1px solid #fadded;
+}
+
+.about{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #212121;  
+    height:fit-content;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.about .title{
+    
+    padding:10px;  
+    background-color: #fff;
+    width:fit-content;
+    margin: auto;
+    margin-bottom: 0px;
+    
+}
+
+.about .title h4{
+    font-family: 'Helvetica', cursive;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+
+.aboutblock{
+    display: grid;
+    grid-auto-flow: column;
+    width: fit-content;
+    height:40%;
+    margin:auto;
+}
+
+
+
+.aboutblock .background{
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding:20px;
+    text-align: center;
+    gap:20px;
+    
+}   
+
+
+.aboutblock .background img{
+    width:265px;
+    align-self: center;
+    height:265px
+}
+
+.aboutblock .background h4{
+    color:#fff;
+    font-family: 'Helvetica';
+    font-weight: 100;
+}
+
+.aboutblock .background p{
+    color:#999;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.newsletter{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+
+    background: url('./images/bricks.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #212121;
+    background-blend-mode:overlay;
+}
+
+
+.newsletter .title{
+    padding:8px;  
+    background-color: #fff;
+    width:fit-content;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.newsletter .title h4{
+    font-family: 'Helvetica';
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+.newsletter .text{
+    color: #fff;
+    text-align: center;
+    padding:40px;
+}
+
+.newsletter .text p{
+    color:#fff;
+    font-family: 'Helvetica';
+}
+
+.newsletter .signup{
+    display: inline-flex;
+    justify-content: center;
+    width:100%;
+    margin: auto;
+    align-items: center;
+    gap:20px;
+    padding-bottom:60px;
+}
+
+.newsletter .signup input{
+    padding:15px;
+    width:350px;
+    font-family: 'Helvetica';
+}
+
+.newsletter .signup .signbutton{
+    background-color: #212121;
+    padding:15px;
+
+}
+
+.newsletter .signup .signbutton h4{
+    color:#fff;
+    font-family: 'Helvetica';
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.newsletter .signup .signbutton:hover{
+    background-color: transparent;
+    cursor:pointer;
+    border : 1px solid #fff;
+    box-shadow: 0 8px 16px 0 #21212188, 0 10px 20px 0 #111111d2;
+}
+
+
+
+
+.footer{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    margin-bottom: -100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .copy{
+    margin-left:10px;
+    padding:10px;
+    font-family: 'Helvetica';
+}
+
+
+.footer .designcred{
+    padding:10px;
+    font-family: 'Helvetica';
+}
+
+
+
+@media screen and (max-width:1020px) {
+    
+
+    .header{
+            justify-content: center;
+            overflow: hidden;
+        }
+
+    .header .navbar{
+        display: none;
+    }
+
+    .header .socials{
+        display: none;
+    }
+
+    main{
+        max-width: 100%;;
+        overflow: hidden;
+    }
+
+
+    .midsec .subhead h4{
+        font-size: 2vw;
+    }
+
+    .midsec .head h2{
+        font-size: 5vw;
+    }
+
+
+    .about .aboutblock{
+        display: block;
+    }
+
+    .newsletter .signup{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+
+    .newsletter .signup input{
+        width:80%;
+        margin:auto;
+    }
+}

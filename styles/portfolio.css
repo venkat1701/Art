@@ -1,0 +1,126 @@
+
+body{
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+main{
+    height:100vh;
+    background-color: #fff;
+    background: none;
+    overflow-y: scroll;
+}
+
+.works{
+    display:flex;
+    width:400px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+    gap:20px;
+}
+
+.works hr{
+    width:200px;
+}
+
+.works h3{
+    font-family: 'Helvetica';
+    font-size: 20px;    
+    font-weight: 100;
+}
+
+.works p{
+    color:#777;
+    font-family: 'Helvetica';
+    font-size: 15px;
+}
+
+
+.works .inquire{
+    padding:15px;
+    background-color: #000;
+}
+
+.works .inquire h4{
+    color:#fff;
+    font-family: 'Helvetica';
+    font-weight: 100;
+}
+
+.works .inquire:hover{
+    background: #212121;
+    border: 1px solid aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor:pointer;
+}
+
+.paintings{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    flex-direction: column;
+    width:100%;
+    height:fit-content;
+}
+
+.paintings .title{
+    background: #212121;
+    padding:10px;
+    width:fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.paintings .title h4{
+    color:#fff;
+    font-family: 'Helvetica';
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+
+.paintings .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.paintings .images img{
+    width:600px;
+    height:400px;
+}
+
+
+
+@media screen and (max-width:425px) {
+    main{
+        height:100vh;
+        overflow-y: scroll;
+    }
+    .works{
+        width:200px;
+        margin:auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .paintings{
+        display:flex;
+        flex-direction: column;
+    }
+    .paintings .images img{
+        width:250px;
+        height:250px;
+    }
+}
+
