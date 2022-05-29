@@ -10,6 +10,7 @@ a{
 }
 main{
     height:100vh;
+
     background-image: url('./images/portfolioimg/eighth.webp');
     background-repeat: no-repeat;
     background-position:top;
@@ -83,6 +84,67 @@ img{
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header .hammenu{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:30px;
+    gap:6px;
+}
+
+.header .hammenu .bar1, .bar2, .bar3{
+    background-color: #000;
+    width:40px;
+    height:3px;
+    transition: 0.4s;
+}
+
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-7px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: rotate(45deg) translate(-7px, -7px);
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
 
 
 .midsec{
@@ -328,11 +390,34 @@ img{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1020px) {
     
 
     .header{
-            justify-content: center;
+        display: flex;
+            justify-content: space-between;
             overflow: hidden;
         }
 
@@ -343,6 +428,22 @@ img{
     .header .socials{
         display: none;
     }
+
+    .header .hammenu{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:30px;
+        padding:10px;
+    }
+
+    .header .hammenu .bar1, .bar2, .bar3{
+        width:30px;
+        height:3px;
+        color:#000;
+    }
+
 
     main{
         max-width: 100%;;
@@ -374,5 +475,19 @@ img{
     .newsletter .signup input{
         width:80%;
         margin:auto;
+    }
+
+
+
+    
+}
+
+
+@keyframes slide{
+    from{
+        width:0%;
+    }
+    to{
+        width:80%;
     }
 }

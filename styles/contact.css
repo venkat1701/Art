@@ -190,6 +190,7 @@ main{
 
     .contacts textarea{
         width:280px;
+        height:80px;
         margin: auto;
     }
 
@@ -215,4 +216,6 @@ main{
         margin-bottom: 50px;
         margin-top: 50px;
     }
+
+
 }
