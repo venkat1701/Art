@@ -9,6 +9,13 @@ main{
     background-color: #fff;
     background: none;
     overflow-y: scroll;
+
+    
+}
+
+
+.nav{
+    position: relative;
 }
 
 .works{
@@ -102,7 +109,7 @@ main{
 
 
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:660px) {
     main{
         height:100vh;
         overflow-y: scroll;

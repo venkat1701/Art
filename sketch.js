@@ -1,9 +1,8 @@
 let open = false;
 let hammenu = document.querySelector(".header .hammenu");
-let sidenav = document.querySelector(".sidebar");
-
+let navigation = document.querySelector(" .navigation");
 
 function openCloseHam(){
     hammenu.classList.toggle("change");
-    
+    navigation.classList.toggle("open");
 }

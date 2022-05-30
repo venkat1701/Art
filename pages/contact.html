@@ -20,7 +20,7 @@
                 <h2>Geneva</h2>
             </div>
 
-            <div class="hammenu" onclick="myFunction(this)">
+            <div class="hammenu" onclick="openCloseHam(this)">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -42,8 +42,20 @@
                 </ul>
             </div>
         </header>
-        
+        <section class="nav">
+            <div class="navigation">
+                <div class="items">
+                    <ul>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                        <li>BLOG</li>
+                        <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
         <section class="contacts">
+            
             <h2>CONTACT ME</h2>
             <p>Get in Touch with the Artist!</p>
             <hr>
@@ -79,9 +91,15 @@
         </footer>
     </main>
      <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
+        let open = false;
+        let hammenu = document.querySelector(".header .hammenu");
+        let navigation = document.querySelector(".nav .navigation");
+
+        function openCloseHam(){
+            hammenu.classList.toggle("change");
+            navigation.classList.toggle("open");
         }
+
     </script>
 </body>
 </html>

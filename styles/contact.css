@@ -6,10 +6,22 @@ body{
     scroll-behavior: smooth;
 }
 
+.nav{
+    position: relative;
+}
+
 main{
     background: none;
     height:100vh;
     overflow-y: scroll;
+
+    background-image: url('../images/portfolioimg/eighth.webp');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    background-color: #21212190;
+
+    background-blend-mode: multiply;
 }
 
 .contacts{
@@ -39,9 +51,10 @@ main{
 
 .contacts p{
     margin-top: 20px;
-    color:#212121;
+    color:#fff;
     font-family: 'Helvetica';
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 800;
     font-weight: 100;
     text-align: center;
 }
@@ -191,7 +204,8 @@ main{
     .contacts textarea{
         width:280px;
         height:80px;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contacts .send{
@@ -213,8 +227,8 @@ main{
 
     .questions{
         width: 300px;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
 
 
